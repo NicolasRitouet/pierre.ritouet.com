@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /
+
+# Site privé en hommage à Pierre Ritouet
+# Aucune indexation autorisée

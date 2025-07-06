@@ -2,13 +2,1329 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=https://www.libramemoria.com/defunts/ritouet-pierre/c98fa6428312477391053fcf4cdec306">
-    <script type="text/javascript">
-        window.location.href = "https://www.libramemoria.com/defunts/ritouet-pierre/c98fa6428312477391053fcf4cdec306";
-    </script>
-    <title>Redirection...</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+    <title>Pierre Ritouet - Hommage</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fafafa;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            position: relative;
+            flex-direction: column;
+            padding: 2rem;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.3);
+        }
+
+        .hero-photo {
+            width: 300px;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            margin-bottom: 2rem;
+            position: relative;
+            z-index: 1;
+            border: 5px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 300;
+            margin-bottom: 1rem;
+            letter-spacing: 2px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-transform: lowercase;
+        }
+
+        .hero .subtitle {
+            font-size: 1.5rem;
+            font-weight: 300;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+
+        .hero .dates {
+            font-size: 1.2rem;
+            margin-bottom: 3rem;
+            opacity: 0.8;
+        }
+
+        .hero .quote {
+            font-size: 1.3rem;
+            font-style: italic;
+            margin-bottom: 3rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            opacity: 0.9;
+        }
+
+        .sections {
+            padding: 5rem 0;
+        }
+
+        .section {
+            margin-bottom: 4rem;
+            padding: 3rem;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .section h2 {
+            font-size: 2.5rem;
+            font-weight: 300;
+            margin-bottom: 2rem;
+            color: #2c3e50;
+            text-align: center;
+        }
+
+        .section p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #555;
+            text-align: left;
+            max-width: 800px;
+            margin: 0 auto 1.2rem auto;
+        }
+
+        .section .intro-text {
+            text-align: center;
+            font-style: italic;
+            color: #666;
+        }
+
+        .testimonial {
+            margin: 2rem 0;
+            padding: 1.5rem;
+            background: #f9f9f9;
+            border-left: 4px solid #2c3e50;
+            border-radius: 5px;
+        }
+
+        .testimonial h3 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+
+        .testimonial p {
+            text-align: left;
+            margin: 0;
+            font-style: italic;
+        }
+
+        .read-more-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            margin-top: 1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .read-more-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .slideshow-container {
+            position: relative;
+            max-width: 800px;
+            margin: 3rem auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .slide {
+            display: none;
+            position: relative;
+        }
+
+        .slide.active {
+            display: block;
+        }
+
+        .slide img {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .slide-caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+            color: white;
+            padding: 2rem 1rem 1rem;
+            font-size: 1.1rem;
+            text-align: center;
+        }
+
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            margin-top: -22px;
+            padding: 16px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            background: rgba(0, 0, 0, 0.5);
+            border: none;
+            user-select: none;
+            transition: background 0.3s ease;
+        }
+
+        .next {
+            right: 0;
+        }
+
+        .prev:hover, .next:hover {
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+        .dots-container {
+            text-align: center;
+            padding: 1rem;
+            background: white;
+        }
+
+        .dot {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0 5px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
+
+        .dot.active, .dot:hover {
+            background-color: #2c3e50;
+        }
+
+        .photo-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+
+        .photo-item {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+
+        .photo-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .photo-item img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .photo-item .caption {
+            padding: 0.5rem;
+            font-size: 0.9rem;
+            text-align: center;
+            color: #666;
+        }
+
+        /* Modal pour l'affichage en grand */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 2000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.9);
+            animation: fadeIn 0.3s ease;
+        }
+
+        .modal-content {
+            position: relative;
+            margin: auto;
+            display: block;
+            max-width: 90%;
+            max-height: 90%;
+            top: 50%;
+            transform: translateY(-50%);
+            animation: zoomIn 0.3s ease;
+        }
+
+        .modal-caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+            color: white;
+            padding: 2rem 1rem 1rem;
+            text-align: center;
+            font-size: 1.2rem;
+        }
+
+        .close {
+            position: absolute;
+            top: 20px;
+            right: 35px;
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: opacity 0.3s ease;
+        }
+
+        .close:hover {
+            opacity: 0.7;
+        }
+
+        .modal-nav {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            font-size: 24px;
+            padding: 10px 15px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .modal-nav:hover {
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+        .modal-prev {
+            left: 20px;
+        }
+
+        .modal-next {
+            right: 20px;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes zoomIn {
+            from { transform: translateY(-50%) scale(0.5); }
+            to { transform: translateY(-50%) scale(1); }
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #2c3e50;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .hero .subtitle {
+                font-size: 1.2rem;
+            }
+            
+            .hero-photo {
+                width: 250px;
+                height: 330px;
+            }
+            
+            .section {
+                padding: 2rem;
+            }
+        }
+    </style>
 </head>
 <body>
-    <p>Si vous n'êtes pas redirigé automatiquement, <a href="https://www.libramemoria.com/defunts/ritouet-pierre/c98fa6428312477391053fcf4cdec306">cliquez ici</a>.</p>
+
+    <section id="accueil" class="hero">
+        <img src="images/GRAND.jpg" alt="Pierre Ritouet" class="hero-photo">
+        <div class="hero-content">
+            <h1>Pierre Ritouet</h1>
+            <p class="subtitle">Archi'prêtre</p>
+            <p class="dates">🌱 30 juillet 1948 - 26 juin 2025 🕊️</p>
+            <p class="quote">"Pierre veut que cette dernière balade soit joyeuse, qu'on ne regrette pas les choses qu'il aurait pu faire, mais qu'on rigole de toutes les blagues qu'il a faites."</p>
+        </div>
+    </section>
+
+    <main class="container sections">
+        <section id="biographie" class="section">
+            <h2>📖 Biographie</h2>
+            <div style="text-align: left; max-width: 900px; margin: 0 auto;">
+                <p>La vie de Pierre, ça a été un joyeux mélange de rencontres, de projets, de réussites, de trébuchements, redémarrages, anecdotes … bref, tout ce qu'il faut pour transformer un hommage en recueil de plusieurs volumes.</p>
+                
+                <p><strong>Son parcours :</strong></p>
+                <p>Pierre est né à Heugnes, dans l'Indre, ce qui lui faisait parfois dire, avec un peu de gymnastique linguistique et un soupçon de mauvaise foi, qu'il était un Indien.</p>
+                
+                <p>Un père Maçon (pour la technique), une mère coiffeuse (pour la créativité), 4 Frères et 1 soeur : un poissonnier (pour la gouaille), un patron de bar (pour le culot et pas que de bouteille) et un Agent des PTT (pour la droiture nonchalante), un aîné (pour l'exemple), une sœur (pour la bonne mesure).</p>
+                
+                <p>Après un cursus général, il s'inscrit en fac de pharma pour faire plaisir à son père. Raté ! : il préfère les bâtiments aux officines et fait l'école buissonnière pour aller gratter en agence et faire ses études aux beaux-arts.</p>
+                
+                <p>Il rencontre ses potes Chudeau et Frioux.</p>
+                
+                <p>Il est appelé en Allemagne pour faire l'armée, il s'y fait une bande de potes, qu'il retrouve depuis chaque année.</p>
+                
+                <p>Il rencontre Aline, la mère de David et Guillaume (grand-mère de Laetitia, Arnaud, Lou et Robin) et s'installent à Grenoble où il intègre « l'Agence Groupe 6 ».</p>
+                
+                <p>Il rencontre ensuite Danielle la mère de Nicolas et Amélie (grand-mère d'Émilie et Adrien) et s'installe à Lyon où il intègre l'agence Frécon / Thiébault.</p>
+                
+                <p>Il crée ensuite son agence à Lyon ; il devient un vrai lyonnais et enseigne parallèlement une dizaine d'année à l'IAE de Lyon en licence d'éclairage : Ils en mettent plein les yeux chaque année dans les projets de fin d'études.</p>
+                
+                <p>Pierre se crée des groupes de copains, les copains des 24h du Mans, les copains du camion, les clients-copains, les promoteurs-copains, les copains du marché, les copains de spectacle, les copains d'Anjou, les copains étudiants …</p>
+                
+                <p>Depuis 30 ans il partage, avec ses enfants, la vie de Catherine : merci à elle d'avoir pris soin de notre Papa !</p>
+                
+                <p>Pierre est un passionné d'Architecture, il a été influencé par Le Corbusier et a croisé de grands noms : Starck, Rudy Ricciotti, Calder, qui l'ont conforté dans sa « Ritouétude », c'est-à-dire je continue comme je suis et merde à ceux qui aiment pas ; ça lui a plutôt réussi puisqu'il a eu deux de ses maisons primées dans les 10 plus belles de France (catégorie maisons modernes) : il en jamais fait état le con : nous on le dit pour lui !</p>
+            </div>
+        </section>
+
+        <section id="livre-or" class="section">
+            <h2>✉️ Livre d'or numérique</h2>
+            <div style="max-width: 900px; margin: 0 auto; text-align: center;">
+                <p class="intro-text" style="font-size: 1.2rem; color: #666; margin-bottom: 3rem;">
+                    Messages d'amour, d'amitié et de reconnaissance partagés en hommage à Pierre
+                </p>
+                
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-bottom: 3rem;">
+                    <div style="background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 3px 15px rgba(0,0,0,0.1); border-left: 4px solid #667eea;">
+                        <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; margin-bottom: 1rem; cursor: pointer;" onclick="openModal(54)">
+                            <img src="temoignages/temoignage_01.png" style="width: 100%; height: 120px; object-fit: cover; border-radius: 5px;">
+                        </div>
+                        <p style="font-style: italic; color: #555; margin: 0;">Cliquez pour lire</p>
+                    </div>
+                    
+                    <div style="background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 3px 15px rgba(0,0,0,0.1); border-left: 4px solid #764ba2;">
+                        <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; margin-bottom: 1rem; cursor: pointer;" onclick="openModal(55)">
+                            <img src="temoignages/temoignage_02.png" style="width: 100%; height: 120px; object-fit: cover; border-radius: 5px;">
+                        </div>
+                        <p style="font-style: italic; color: #555; margin: 0;">Cliquez pour lire</p>
+                    </div>
+                    
+                    <div style="background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 3px 15px rgba(0,0,0,0.1); border-left: 4px solid #2c3e50;">
+                        <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; margin-bottom: 1rem; cursor: pointer;" onclick="openModal(56)">
+                            <img src="temoignages/temoignage_03.png" style="width: 100%; height: 120px; object-fit: cover; border-radius: 5px;">
+                        </div>
+                        <p style="font-style: italic; color: #555; margin: 0;">Cliquez pour lire</p>
+                    </div>
+                    
+                    <div style="background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 3px 15px rgba(0,0,0,0.1); border-left: 4px solid #667eea;">
+                        <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; margin-bottom: 1rem; cursor: pointer;" onclick="openModal(57)">
+                            <img src="temoignages/temoignage_04.png" style="width: 100%; height: 120px; object-fit: cover; border-radius: 5px;">
+                        </div>
+                        <p style="font-style: italic; color: #555; margin: 0;">Cliquez pour lire</p>
+                    </div>
+                    
+                    <div style="background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 3px 15px rgba(0,0,0,0.1); border-left: 4px solid #764ba2;">
+                        <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; margin-bottom: 1rem; cursor: pointer;" onclick="openModal(58)">
+                            <img src="temoignages/temoignage_05.png" style="width: 100%; height: 120px; object-fit: cover; border-radius: 5px;">
+                        </div>
+                        <p style="font-style: italic; color: #555; margin: 0;">Cliquez pour lire</p>
+                    </div>
+                    
+                    <div style="background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 3px 15px rgba(0,0,0,0.1); border-left: 4px solid #2c3e50;">
+                        <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; margin-bottom: 1rem; cursor: pointer;" onclick="openModal(59)">
+                            <img src="temoignages/temoignage_06.png" style="width: 100%; height: 120px; object-fit: cover; border-radius: 5px;">
+                        </div>
+                        <p style="font-style: italic; color: #555; margin: 0;">Cliquez pour lire</p>
+                    </div>
+                </div>
+                
+                <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 2rem; border-radius: 15px; margin: 2rem 0;">
+                    <h3 style="margin: 0 0 1rem 0; font-size: 1.5rem;">📖 Livre d'or complet</h3>
+                    <p style="margin: 0 0 1.5rem 0; opacity: 0.9;">Messages de famille, amis et proches</p>
+                    <button onclick="showAllTestimonials()" style="background: rgba(255,255,255,0.2); color: white; border: 2px solid rgba(255,255,255,0.3); padding: 12px 24px; border-radius: 25px; cursor: pointer; font-size: 1rem; transition: all 0.3s ease;">
+                        Voir tous les témoignages
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="temoignages" class="section">
+            <h2>💬 Témoignages des proches</h2>
+            <div style="text-align: left; max-width: 900px; margin: 0 auto;">
+                
+                <div class="testimonial">
+                    <h3>Catherine, sa compagne</h3>
+                    <p><em>"Merci la vie d'avoir croisé ta route et cela fait 30 ans de bonheur. Merci pour ces bons moments avec tes enfants, ta famille, mes parents et nos amis. Merci de m'avoir fait découvrir ton coin de paradis le long de la Loire ainsi que la Bretagne où nous nous y sentions si bien."</em></p>
+                    <button class="read-more-btn" onclick="showFullTestimony('catherine')">Lire le témoignage complet</button>
+                </div>
+                
+                <div class="testimonial">
+                    <h3>Amélie, sa fille</h3>
+                    <p><em>"Tant de choses à dire : Tes savates, ton rotring, nos croquis, ton Bouvet Ladubay rouge pétillant bien bien frais, mon-amélie, tes secrets, tes blagues que je ne comprenais pas que je fais les mêmes maintenant, ta passion pour l'archi... Aujourd'hui je te dis la fierté que j'ai eu d'avoir un papa comme toi. Mes frères m'ont toujours appelée la chouchoute, j'aime à le croire papa..."</em></p>
+                    <button class="read-more-btn" onclick="showFullTestimony('amelie')">Lire le témoignage complet</button>
+                </div>
+                
+                <div class="testimonial">
+                    <h3>Ses petits-enfants</h3>
+                    <p><em>"Notre grand-père est un sacré personnage... on en aura vu des belles dès notre plus jeune âge avec lui. On se souvient de plusieurs sorties, au zoo ou même à la pêche aux écrevisses, mais aussi beaucoup de promenades où à chaque coin de rue, il nous racontait des anecdotes... entre nous, ce n'était plus vraiment des balades mais plutôt de vraies visites de Lyon comme celles dans les petits trains !"</em></p>
+                    <button class="read-more-btn" onclick="showFullTestimony('petits-enfants')">Lire le témoignage complet</button>
+                </div>
+                
+                <div class="testimonial">
+                    <h3>Christian Simon, ami des 24h du Mans</h3>
+                    <p><em>"Très Cher Pierre, Aujourd'hui nous perdons notre Archidiacre. Jamais ton panache n'a faibli. Jamais ta passion pour la vie et ton prochain ne s'est assombrie. Tu auras été par ta constance, une des pierres angulaires sur lesquelles s'est perpétuée notre groupe qui fête chaque année ses retrouvailles aux 24 heures du Mans."</em></p>
+                    <button class="read-more-btn" onclick="showFullTestimony('christian')">Lire le témoignage complet</button>
+                </div>
+                
+                <div class="testimonial">
+                    <h3>Patrick Frécon, associé</h3>
+                    <p><em>"Pierre, mon Ami, Tu nous quittes et nous laisses l'empreinte d'une belle vie professionnelle. Cette réussite, outre tes qualités créatives, séduisantes et reconnues, tu la dois à ta générosité et à la bonne humeur que tu y rajoutais."</em></p>
+                    <button class="read-more-btn" onclick="showFullTestimony('patrick-frecon')">Lire le témoignage complet</button>
+                </div>
+                
+                <div class="testimonial">
+                    <h3>Patrick Guillot, ami de longue date</h3>
+                    <p><em>"Depuis plus de 55 ans on a pu partager nos passions communes... Saumur, la Loire, l'ardoise, le Tuffeau sans oublier les vins, enfin notre culture commune quoi ! J'aimerais surtout évoquer ta sensibilité et ton amitié sans faille."</em></p>
+                    <button class="read-more-btn" onclick="showFullTestimony('patrick-guillot')">Lire le témoignage complet</button>
+                </div>
+                
+                <div class="testimonial">
+                    <h3>Jean-François Lévêque</h3>
+                    <p><em>"Pierre, si j'avais eu ton audace, ton originalité, ton humour, j'aurais invectivé ton cercueil comme tu savais si bien le faire... « Ça suffin, a la fie ! Tu nous fausses compagnie à l'heure de l'apéro, en pleine chaleur, alors que nous espérions te retrouver au frais sur la terrasse de la maison du haut d'Avis que tu as conçue avec Daniele et moi. »"</em></p>
+                    <button class="read-more-btn" onclick="showFullTestimony('jean-francois')">Lire le témoignage complet</button>
+                </div>
+                
+                <div class="testimonial">
+                    <h3>Jean-Pierre Rudigoz</h3>
+                    <p><em>"Pierre Encore merci à toi des belles surprises que tu m'a toujours faites pour mes anniversaires. Ce qui allait du colis envoyé en plein mois de juillet et posté de façon à ce qu'il traîne, contenant des pinces de crabes et des algues..."</em></p>
+                    <button class="read-more-btn" onclick="showFullTestimony('jean-pierre')">Lire le témoignage complet</button>
+                </div>
+                
+                <div class="testimonial">
+                    <h3>Hervé Donnard, compagnon de la 681C</h3>
+                    <p><em>"Pierre dans la 681C... Nous ne le savions pas mais c'était un Pierre en or, car c'est de lui qu'est né le livre d'or de la 681C. Et pour Pierre nous avions Ritouet, c'était mieux qu'un trésor, puisque de lui est né notre livre d'or."</em></p>
+                    <button class="read-more-btn" onclick="showFullTestimony('herve')">Lire le témoignage complet</button>
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="galerie" class="section">
+            <h2>📷 Galerie</h2>
+            
+            <!-- Slideshow principal -->
+            <div class="slideshow-container">
+                <div class="slide active">
+                    <img src="images/Portrait papa trendy.jpg" alt="Pierre Ritouet">
+                    <div class="slide-caption">Pierre Ritouet - Portrait</div>
+                </div>
+                <div class="slide">
+                    <img src="images/Papa et Amelie.jpg" alt="Pierre et Amélie">
+                    <div class="slide-caption">Pierre avec sa fille Amélie</div>
+                </div>
+                <div class="slide">
+                    <img src="images/Pierre en voyage 68.jpg" alt="Pierre en voyage">
+                    <div class="slide-caption">Pierre en voyage (1968)</div>
+                </div>
+                <div class="slide">
+                    <img src="images/Papa a la peche.jpg" alt="Pierre à la pêche">
+                    <div class="slide-caption">Pierre à la pêche</div>
+                </div>
+                <div class="slide">
+                    <img src="images/Papa camping parapluie.jpg" alt="Pierre en camping">
+                    <div class="slide-caption">Pierre en camping</div>
+                </div>
+                <div class="slide">
+                    <img src="images/Papa Mobylette.jpg" alt="Pierre et sa mobylette">
+                    <div class="slide-caption">Pierre et sa mobylette</div>
+                </div>
+                <div class="slide">
+                    <img src="images/Papa ski.jpg" alt="Pierre au ski">
+                    <div class="slide-caption">Pierre au ski</div>
+                </div>
+                <div class="slide">
+                    <img src="images/Alain, Pierre, Bernard.jpg" alt="Avec les amis">
+                    <div class="slide-caption">Alain, Pierre, Bernard</div>
+                </div>
+                
+                <button class="prev" onclick="changeSlide(-1)">❮</button>
+                <button class="next" onclick="changeSlide(1)">❯</button>
+                
+                <div class="dots-container">
+                    <span class="dot active" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
+                    <span class="dot" onclick="currentSlide(7)"></span>
+                    <span class="dot" onclick="currentSlide(8)"></span>
+                </div>
+            </div>
+            
+            <!-- Grille de photos -->
+            <div style="max-width: 1200px; margin: 0 auto;">
+                <h3 style="text-align: center; margin: 3rem 0 2rem; color: #2c3e50;">Toutes les photos (54 images)</h3>
+                <div class="photo-grid" id="photoGrid">
+                    <div class="photo-item" onclick="openModal(0)">
+                        <img src="images/Portrait papa trendy.jpg" alt="Pierre Ritouet - Portrait">
+                        <div class="caption">Pierre Ritouet - Portrait</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(1)">
+                        <img src="images/enfant RITOUET.jpg" alt="Pierre enfant">
+                        <div class="caption">Pierre enfant</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(2)">
+                        <img src="images/Gamin papa portrait.jpg" alt="Pierre jeune">
+                        <div class="caption">Pierre jeune</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(3)">
+                        <img src="images/Gamin papa voiture.jpg" alt="Pierre avec voiture">
+                        <div class="caption">Pierre avec sa voiture</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(4)">
+                        <img src="images/Soldat papa.jpg" alt="Pierre soldat">
+                        <div class="caption">Pierre pendant son service militaire</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(5)">
+                        <img src="images/Soldat papa2.jpg" alt="Pierre soldat">
+                        <div class="caption">Pierre militaire</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(6)">
+                        <img src="images/Soldat papa portrait2.jpg" alt="Pierre soldat portrait">
+                        <div class="caption">Pierre - Portrait militaire</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(7)">
+                        <img src="images/Soldat papa Trou.jpg" alt="Pierre soldat">
+                        <div class="caption">Pierre militaire</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(8)">
+                        <img src="images/Pierre en voyage 68.jpg" alt="Pierre en voyage 1968">
+                        <div class="caption">Pierre en voyage (1968)</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(9)">
+                        <img src="images/Pierre ND de Monts cowboy.jpg" alt="Pierre cowboy">
+                        <div class="caption">Pierre en cowboy</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(10)">
+                        <img src="images/Papa et Amelie.jpg" alt="Pierre et Amélie">
+                        <div class="caption">Pierre avec sa fille Amélie</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(11)">
+                        <img src="images/pierre avec david (4 mois) 001.jpg" alt="Pierre avec David bébé">
+                        <div class="caption">Pierre avec David (4 mois)</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(12)">
+                        <img src="images/Papa a la peche.jpg" alt="Pierre à la pêche">
+                        <div class="caption">Pierre à la pêche</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(13)">
+                        <img src="images/Papa ski.jpg" alt="Pierre au ski">
+                        <div class="caption">Pierre au ski</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(14)">
+                        <img src="images/Papa camping parapluie.jpg" alt="Pierre en camping">
+                        <div class="caption">Pierre en camping</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(15)">
+                        <img src="images/Papa Mobylette.jpg" alt="Pierre et sa mobylette">
+                        <div class="caption">Pierre et sa mobylette</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(16)">
+                        <img src="images/papa dort.jpg" alt="Pierre se repose">
+                        <div class="caption">Pierre se repose</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(17)">
+                        <img src="images/Papa boit.jpg" alt="Pierre trinque">
+                        <div class="caption">Pierre trinque</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(18)">
+                        <img src="images/Papa lampe.jpg" alt="Pierre avec lampe">
+                        <div class="caption">Pierre avec sa lampe</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(19)">
+                        <img src="images/Alain, Pierre, Bernard.jpg" alt="Alain, Pierre, Bernard">
+                        <div class="caption">Alain, Pierre, Bernard</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(20)">
+                        <img src="images/Bernard, Alain, Pierre.jpg" alt="Bernard, Alain, Pierre">
+                        <div class="caption">Bernard, Alain, Pierre</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(21)">
+                        <img src="images/Bernard, Pierre.jpg" alt="Bernard et Pierre">
+                        <div class="caption">Bernard et Pierre</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(22)">
+                        <img src="images/Pierre et Rudi a NDB.jpg" alt="Pierre et Rudi">
+                        <div class="caption">Pierre et Rudi</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(23)">
+                        <img src="images/03 août 2005 abbaye de fontevraud 094.jpg" alt="À l'abbaye de Fontevraud">
+                        <div class="caption">À l'abbaye de Fontevraud (2005)</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(24)">
+                        <img src="images/22092007(004).jpg" alt="Photo septembre 2007">
+                        <div class="caption">Septembre 2007</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(25)">
+                        <img src="images/Copie de Portrait papa trendy.jpg" alt="Pierre - Portrait trendy">
+                        <div class="caption">Pierre - Portrait trendy</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(26)">
+                        <img src="images/GRAND.jpg" alt="Photo de Pierre">
+                        <div class="caption">Pierre</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(27)">
+                        <img src="images/unnamed.jpg" alt="Pierre">
+                        <div class="caption">Pierre</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(28)">
+                        <img src="images/DSC01174.JPG" alt="Pierre">
+                        <div class="caption">Pierre</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(29)">
+                        <img src="images/DSC01204.JPG" alt="Pierre">
+                        <div class="caption">Pierre</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(30)">
+                        <img src="images/DSC01210 bis.jpg" alt="Pierre">
+                        <div class="caption">Pierre</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(31)">
+                        <img src="images/DSC03360.JPG" alt="Pierre">
+                        <div class="caption">Pierre</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(32)">
+                        <img src="images/DSC03492.JPG" alt="Pierre">
+                        <div class="caption">Pierre</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(33)">
+                        <img src="images/DSC03676.JPG" alt="Pierre">
+                        <div class="caption">Pierre</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(34)">
+                        <img src="images/78e6a255-95f8-4055-b5fa-59e7b4ea2f2a.JPG" alt="Pierre">
+                        <div class="caption">Pierre</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(35)">
+                        <img src="images/IMG_0687.JPG" alt="Pierre">
+                        <div class="caption">Pierre</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(36)">
+                        <img src="images/IMG_2639.jpg" alt="Pierre">
+                        <div class="caption">Pierre</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(37)">
+                        <img src="images/IMG_3511.JPG" alt="Pierre">
+                        <div class="caption">Pierre</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(38)">
+                        <img src="images/IMG_3961.jpg" alt="Pierre">
+                        <div class="caption">Pierre</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(39)">
+                        <img src="images/IMG_4132.PNG" alt="Pierre">
+                        <div class="caption">Pierre</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(40)">
+                        <img src="images/IMG_5262.jpg" alt="Pierre">
+                        <div class="caption">Pierre</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(41)">
+                        <img src="images/IMG_5274.jpg" alt="Pierre">
+                        <div class="caption">Pierre</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(42)">
+                        <img src="images/IMG_5283.jpg" alt="Pierre">
+                        <div class="caption">Pierre</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(43)">
+                        <img src="images/IMG_6521.jpg" alt="Pierre">
+                        <div class="caption">Pierre</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(44)">
+                        <img src="images/IMG_7385.jpg" alt="Pierre">
+                        <div class="caption">Pierre</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(45)">
+                        <img src="images/1.jpg" alt="Pierre">
+                        <div class="caption">Pierre</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(46)">
+                        <img src="images/2.jpg" alt="Pierre">
+                        <div class="caption">Pierre</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(47)">
+                        <img src="images/3.jpg" alt="Pierre">
+                        <div class="caption">Pierre</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(48)">
+                        <img src="images/4.jpg" alt="Pierre">
+                        <div class="caption">Pierre</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(49)">
+                        <img src="images/5.jpg" alt="Pierre">
+                        <div class="caption">Pierre</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(50)">
+                        <img src="images/6.jpg" alt="Pierre">
+                        <div class="caption">Pierre</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(51)">
+                        <img src="images/7.jpg" alt="Pierre">
+                        <div class="caption">Pierre</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(52)">
+                        <img src="images/8.jpg" alt="Pierre">
+                        <div class="caption">Pierre</div>
+                    </div>
+                    <div class="photo-item" onclick="openModal(53)">
+                        <img src="images/9.jpg" alt="Pierre">
+                        <div class="caption">Pierre</div>
+                    </div>
+                </div>
+                
+                <div class="testimonial" style="margin-top: 3rem;">
+                    <h3>Poème choisi par Pierre</h3>
+                    <p><em>"Heureux qui, comme Ulysse, a fait un beau voyage,<br>
+                    Ou comme celui-là qui conquit la toison,<br>
+                    Et puis est retourné, plein d'usage et raison,<br>
+                    Vivre entre ses parents le reste de son âge !<br><br>
+                    Plus me plaît le séjour qu'ont bâti mes aïeux<br>
+                    Que des palais romains le front audacieux,<br>
+                    Plus que le marbre dur me plaît l'ardoise fine,<br>
+                    Plus mon Loire gaulois que le Tibre latin,<br>
+                    Plus mon petit Liré que le mont Palatin,<br>
+                    Et plus que l'air marin, la douceur angevine."</em><br>
+                    <small>— Joachim du Bellay, "Les Regrets"</small></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="remerciements" class="section">
+            <h2>🙏 Remerciements</h2>
+            <div style="text-align: center; max-width: 800px; margin: 0 auto;">
+                <p style="font-size: 1.2rem; color: #666; margin-bottom: 3rem; font-style: italic;">
+                    La famille souhaite remercier toutes les personnes qui ont accompagné Pierre dans ses derniers moments et qui continuent de l'honorer par leur présence et leur soutien.
+                </p>
+                
+                <div style="background: white; padding: 2.5rem; border-radius: 15px; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1); margin-bottom: 2rem;">
+                    <h3 style="color: #2c3e50; margin-bottom: 2rem; font-size: 1.5rem;">🏥 Soins et accompagnement</h3>
+                    <p style="margin-bottom: 1rem;">• Ses infirmiers à domicile : Françoise, Anne et Laurent</p>
+                    <p style="margin-bottom: 1rem;">• Le personnel des services d'Hématologie de l'hôpital Lyon Sud</p>
+                    <p style="margin-bottom: 1rem;">• Le service de l'unité de soins palliatifs de l'hôpital Lyon Sud et notamment Franck, aide-soignant, pour son dévouement et l'affection mutuelle partagée avec Pierre</p>
+                    <p>• Les pharmaciens Didier Chedorge et Alain Morin</p>
+                </div>
+                
+                <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 2rem; border-radius: 15px;">
+                    <h3 style="margin: 0 0 1rem 0; font-size: 1.3rem;">💙 Gratitude</h3>
+                    <p style="margin: 0; opacity: 0.9; line-height: 1.6;">
+                        Un immense merci à tous ceux qui ont rendu les derniers moments de Pierre plus doux et à tous ceux qui perpétuent sa mémoire par leur amour et leur amitié.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal pour affichage en grand -->
+    <div id="photoModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImg">
+        <div class="modal-caption" id="modalCaption"></div>
+        <button class="modal-nav modal-prev" onclick="previousImage()">❮</button>
+        <button class="modal-nav modal-next" onclick="nextImage()">❯</button>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 - En mémoire de Pierre Ritouet</p>
+        </div>
+    </footer>
+
+    <script>
+        let slideIndex = 1;
+        let currentModalIndex = 0;
+        showSlide(slideIndex);
+
+        // Liste des images pour le modal
+        const images = [
+            { src: "images/Portrait papa trendy.jpg", caption: "Pierre Ritouet - Portrait" },
+            { src: "images/enfant RITOUET.jpg", caption: "Pierre enfant" },
+            { src: "images/Gamin papa portrait.jpg", caption: "Pierre jeune" },
+            { src: "images/Gamin papa voiture.jpg", caption: "Pierre avec sa voiture" },
+            { src: "images/Soldat papa.jpg", caption: "Pierre pendant son service militaire" },
+            { src: "images/Soldat papa2.jpg", caption: "Pierre militaire" },
+            { src: "images/Soldat papa portrait2.jpg", caption: "Pierre - Portrait militaire" },
+            { src: "images/Soldat papa Trou.jpg", caption: "Pierre militaire" },
+            { src: "images/Pierre en voyage 68.jpg", caption: "Pierre en voyage (1968)" },
+            { src: "images/Pierre ND de Monts cowboy.jpg", caption: "Pierre en cowboy" },
+            { src: "images/Papa et Amelie.jpg", caption: "Pierre avec sa fille Amélie" },
+            { src: "images/pierre avec david (4 mois) 001.jpg", caption: "Pierre avec David (4 mois)" },
+            { src: "images/Papa a la peche.jpg", caption: "Pierre à la pêche" },
+            { src: "images/Papa ski.jpg", caption: "Pierre au ski" },
+            { src: "images/Papa camping parapluie.jpg", caption: "Pierre en camping" },
+            { src: "images/Papa Mobylette.jpg", caption: "Pierre et sa mobylette" },
+            { src: "images/papa dort.jpg", caption: "Pierre se repose" },
+            { src: "images/Papa boit.jpg", caption: "Pierre trinque" },
+            { src: "images/Papa lampe.jpg", caption: "Pierre avec sa lampe" },
+            { src: "images/Alain, Pierre, Bernard.jpg", caption: "Alain, Pierre, Bernard" },
+            { src: "images/Bernard, Alain, Pierre.jpg", caption: "Bernard, Alain, Pierre" },
+            { src: "images/Bernard, Pierre.jpg", caption: "Bernard et Pierre" },
+            { src: "images/Pierre et Rudi a NDB.jpg", caption: "Pierre et Rudi" },
+            { src: "images/03 août 2005 abbaye de fontevraud 094.jpg", caption: "À l'abbaye de Fontevraud (2005)" },
+            { src: "images/22092007(004).jpg", caption: "Septembre 2007" },
+            { src: "images/Copie de Portrait papa trendy.jpg", caption: "Pierre - Portrait trendy" },
+            { src: "images/GRAND.jpg", caption: "Pierre" },
+            { src: "images/unnamed.jpg", caption: "Pierre" },
+            { src: "images/DSC01174.JPG", caption: "Pierre" },
+            { src: "images/DSC01204.JPG", caption: "Pierre" },
+            { src: "images/DSC01210 bis.jpg", caption: "Pierre" },
+            { src: "images/DSC03360.JPG", caption: "Pierre" },
+            { src: "images/DSC03492.JPG", caption: "Pierre" },
+            { src: "images/DSC03676.JPG", caption: "Pierre" },
+            { src: "images/78e6a255-95f8-4055-b5fa-59e7b4ea2f2a.JPG", caption: "Pierre" },
+            { src: "images/IMG_0687.JPG", caption: "Pierre" },
+            { src: "images/IMG_2639.jpg", caption: "Pierre" },
+            { src: "images/IMG_3511.JPG", caption: "Pierre" },
+            { src: "images/IMG_3961.jpg", caption: "Pierre" },
+            { src: "images/IMG_4132.PNG", caption: "Pierre" },
+            { src: "images/IMG_5262.jpg", caption: "Pierre" },
+            { src: "images/IMG_5274.jpg", caption: "Pierre" },
+            { src: "images/IMG_5283.jpg", caption: "Pierre" },
+            { src: "images/IMG_6521.jpg", caption: "Pierre" },
+            { src: "images/IMG_7385.jpg", caption: "Pierre" },
+            { src: "images/1.jpg", caption: "Pierre" },
+            { src: "images/2.jpg", caption: "Pierre" },
+            { src: "images/3.jpg", caption: "Pierre" },
+            { src: "images/4.jpg", caption: "Pierre" },
+            { src: "images/5.jpg", caption: "Pierre" },
+            { src: "images/6.jpg", caption: "Pierre" },
+            { src: "images/7.jpg", caption: "Pierre" },
+            { src: "images/8.jpg", caption: "Pierre" },
+            { src: "images/9.jpg", caption: "Pierre" },
+            { src: "temoignages/temoignage_01.png", caption: "Témoignage 1" },
+            { src: "temoignages/temoignage_02.png", caption: "Témoignage 2" },
+            { src: "temoignages/temoignage_03.png", caption: "Témoignage 3" },
+            { src: "temoignages/temoignage_04.png", caption: "Témoignage 4" },
+            { src: "temoignages/temoignage_05.png", caption: "Témoignage 5" },
+            { src: "temoignages/temoignage_06.png", caption: "Témoignage 6" },
+            { src: "temoignages/temoignage_07.png", caption: "Témoignage 7" },
+            { src: "temoignages/temoignage_08.png", caption: "Témoignage 8" },
+            { src: "temoignages/temoignage_09.png", caption: "Témoignage 9" },
+            { src: "temoignages/temoignage_10.png", caption: "Témoignage 10" },
+            { src: "temoignages/temoignage_11.png", caption: "Témoignage 11" },
+            { src: "temoignages/temoignage_12.png", caption: "Témoignage 12" }
+        ];
+
+        // Fonctions modal
+        function openModal(index) {
+            currentModalIndex = index;
+            const modal = document.getElementById('photoModal');
+            const modalImg = document.getElementById('modalImg');
+            const modalCaption = document.getElementById('modalCaption');
+            
+            modal.style.display = 'block';
+            modalImg.src = images[index].src;
+            modalCaption.textContent = images[index].caption;
+            
+            // Empêcher le scroll du body
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('photoModal');
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+
+        function nextImage() {
+            currentModalIndex = (currentModalIndex + 1) % images.length;
+            const modalImg = document.getElementById('modalImg');
+            const modalCaption = document.getElementById('modalCaption');
+            modalImg.src = images[currentModalIndex].src;
+            modalCaption.textContent = images[currentModalIndex].caption;
+        }
+
+        function previousImage() {
+            currentModalIndex = (currentModalIndex - 1 + images.length) % images.length;
+            const modalImg = document.getElementById('modalImg');
+            const modalCaption = document.getElementById('modalCaption');
+            modalImg.src = images[currentModalIndex].src;
+            modalCaption.textContent = images[currentModalIndex].caption;
+        }
+
+        // Fermer le modal avec Escape
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                closeModal();
+            } else if (event.key === 'ArrowRight') {
+                nextImage();
+            } else if (event.key === 'ArrowLeft') {
+                previousImage();
+            }
+        });
+
+        // Fermer le modal en cliquant à l'extérieur
+        window.addEventListener('click', function(event) {
+            const modal = document.getElementById('photoModal');
+            if (event.target === modal) {
+                closeModal();
+            }
+        });
+
+        // Fonction pour afficher tous les témoignages
+        function showAllTestimonials() {
+            // Commencer par le premier témoignage (index 54)
+            openModal(54);
+        }
+
+        // Fonction pour afficher les témoignages complets des proches
+        function showFullTestimony(person) {
+            const testimonies = {
+                'catherine': {
+                    title: 'Catherine, sa compagne',
+                    text: `Texte de Catherine à Pierre
+
+Merci la vie d'avoir croisé ta route et cela fait 30 ans de bonheur.
+Merci pour ces bons moments avec tes enfants, ta famille, mes parents et nos amis.
+Merci de m'avoir fait découvrir ton coin de paradis le long de la Loire ainsi que la Bretagne où nous nous y sentions si bien.
+De mon côté, un coin plus petit mais tout aussi charmant qu'est la presqu'île de Giens que tu as adoré et où mes parents reposent.
+Merci de m'avoir fêté mes 40 ans en automne alors que je suis née au printemps avec en dessert des bûches de Noël. Il manquait l'été pour faire les 4 saisons.
+Merci d'avoir pris soin de moi et de Coton dans les moments les plus difficiles.
+Et il y en a tant d'autres à raconter !
+Merci pour tout ce que tu m'as donné. Ton amour, ta tendresse, ta force. Tu continues de vivre à travers moi.
+
+Avec tout mon amour,
+Ta Catherine`
+                },
+                'amelie': {
+                    title: 'Amélie, sa fille',
+                    text: `Oh le con
+C'est ce que j'ai dit qu'on tu as poussé ton dernier souffle
+Oh le con, on ne s'est pas assez dit je t'aime
+Oh le con, tu m'as demandé de réaliser ton cercueil jaune, on a pris un noir pour mettre toutes les couleurs que tu aimes tant dessus, et on a quand même fait une maquette avec ton menuisier préféré
+
+J'ai fait tes yeux une dernière fois dans ta région de cœur, tu avais préparé tout ce voyage, tu étais avec nous à chaque instant, en mangeant des fouées, en regardant ta Loire, en allant au cadre noir, en gouttant du bon vin d'Anjou, en passant une soirée avec le cousin… tu m'as dit qu'on ne peut que tomber amoureux de cette région. Je le comprends que maintenant.
+
+Tant de choses à dire:
+Tes savates, ton rotring, l'édredon, nos croquis, ton Bouvay Ladubay rouge pétillant bien bien frais, mon-amélie, tes secrets, tes frères, tes blagues que je ne comprenais pas que je fais les mêmes maintenant, ta passion pour l'archi, toutes les femmes de ta vie, tes régimes, l'andouillette, ton Minitel, ton maçon, ton menuisier, ton élec, ton plombier, st Bonnet, Notre Dame, Crozon, Montarcher, Saint Antoine l'Abbaye, l'école qui t'appelle pour venir me chercher, tes surprises, tes « il est super sympa tu verras », tes rdv sans fin, mes billets de retards à l'école, les samedis matins à ton bureau à faire des dessins, l'auberge de la foret de Tronçais, l'enduit de la piscine qui me faisait des cloques au pied, les Pervenches, la maison de Limonest, le Bar des Amis, le Tranquill'bar, notre Espace bleu, les traversées en chalutier, notre voyage à Prague et à Vienne, la fête de la bière, tes maquettes, ton Solex, ton premier téléphone sans fil dans le coffre de ta voiture, tes ptits bouts d'os dans ton porte-monnaie, le tomofan, ton anniversaire en 2CV (chevaux) à traverser le beaujolais avec les frangins, « allô allô oui allô oui allô...téléphone de merde », « j'espère que t'as rien oublié » à chaque fois qu'on se quittait, tes « fait attention sur la route ma fille »
+
+Aujourd'hui je te dis la fierté que j'ai eu d'avoir un papa comme toi
+Mes frères m'ont toujours appelée la chouchoute, j'aime à le croire papa...`
+                },
+                'petits-enfants': {
+                    title: 'Ses petits-enfants',
+                    text: `Notre grand père est un sacré personnage, comme vous le savez tous, on en aura vu des belles dès nôtre plus jeune âge avec lui, certains ont eu de quoi rouler des cigarettes dès nos 15 ans, des sardines et UNE orange, certains ont eu plus de chance avec des LEGO ou des après-midi remplies de diverses histoires tout en mangeant des cornes de gazelles ou des crêpes!
+
+On se souvient également de plusieurs sorties, au zoo ou même à la pêche aux écrevisses, mais aussi beaucoup de promenades où à chaque coin de rue, il nous racontait des anecdotes sur telle ou telle maison, boutique ou personnes rencontrées; entre nous, ce n'était plus vraiment des balades mais plutôt de vraies visites de Lyon comme celles dans les petits trains, à chaque stop il y a une anecdote!
+
+Mais notre grand père c'est aussi nous avoir fait rencontrer une jeune grand-mère artiste formidable, qui aura su se faire une place dans le cœur de toute la famille, et lui aura mis des couleurs dans sa vie, mais surtout dans tout leur appartement avec ses nombreuses œuvres d'art!
+
+Et pour TOUT ça, on ne le remerciera jamais assez!
+
+Tes petits enfants qui t'aiment.
+Emilie, Lou, Adrien, Robin, Arnaud et Laetitia.`
+                },
+                'christian': {
+                    title: 'Christian Simon, ami des 24h du Mans',
+                    text: `Très Cher Pierre,
+Aujourd'hui nous perdons notre Archidiacre. "Archidiacre" tu aimais que l'on t'appelle ainsi. "Mon Père" t'amusais beaucoup aussi.
+
+Vois, nous sommes comme tu l'aimais tant, réunis autour de toi et ton visage s'éclaire de cette joie qui ne t'a jamais quittée. Nous sommes réunis encore une fois pour partager avec toi ce plaisir d'être ensemble.
+
+Etre avec toi et partager ta truculence, tes rires et ton appétit autour de merveilleuses charcutailles lyonnaises promptement englouties et copieusement arrosées des miracles de la vigne.
+
+Nous avons ce jour nous tous, et pour toi en particulier, une affectueuse pensée pour Bernard et Stéphane qui partageaient sans minauderie cette même passion qui vous unissait dans une indéfectible amitié.
+
+Jamais ton panache n'a faiblit. Jamais ta passion pour la vie et ton prochain ne s'est assombrie. Jamais ton souvenir d'un compagnon passionné par ce monde ne s'effacera.
+
+Nous pensons aussi à Catherine, ta douce compagne pour qui tu avais admiration et douce passion.
+
+Tu auras été par ta constance, une des pierres angulaires sur lesquelles s'est perpétuée notre groupe qui fête chaque année avec bonheur ses retrouvailles aux 24 heures du Mans.
+
+Et dans l'attente de jours meilleurs où nous pourrons à nouveau nous réunir autour de libations soigneusement choisies, nous te disons haut et fort notre considération et notre profonde amitié.
+
+Nous te regrettons Pierre et nous t'embrassons affectueusement.
+Le "groupe des 24 heures`
+                },
+                'patrick-frecon': {
+                    title: 'Patrick Frécon, associé',
+                    text: `Ah… Pierre, mon Ami,
+Tu nous quittes et nous laisses l'empreinte d'une belle vie professionnelle.
+Cette réussite, outre tes qualités créatives, séduisantes et reconnues, tu la dois à ta générosité et à la bonne humeur que tu y rajoutais. Cet état d'esprit a traversé toutes les étapes de ta belle vie professionnelle.
+
+Tu aimais revivre, en nous les faisant partager, tes nombreux souvenirs…
+
+Tu as commencé par l'expérience chez Pierre Chudeau et Yann Frioux à Saumur. Ils ont été pour toi, et tu aimais le dire, des Amis dans la vie, mais aussi des Pères dans la profession.
+
+En suite c'est à Grenoble, avec « Groupe 6 » que tu as poursuivi avec une nouvelle et belle expérience.
+
+Enfin, tu es venu nous rejoindre. Ces six années de partage professionnel, ont marqué mon esprit et celui de ceux que tu as croisés à l'agence.
+
+Ce qui devait arriver pour assoire ta stature, tu l'as fait, tu nous as quitté et ouvert ton agence. C'est à ce moment que tu as partagé pleinement tout ce qui fait le bon côté de notre profession. Cela t'a permis d'élargir le cercle de tes copains qui pour un grand nombre sont devenus tes AMIS.
+
+Beaucoup sont là aujourd'hui pour te dire au revoir.
+
+Laisse moi te dire, mon Ami, que tout ce que nous avons partagé dans le privé et le professionnel, ne s'effacera jamais. Comme l'image de Catherine te « chouchoutans » jusqu'à l'hôpital accompagné par tes enfants et petits enfants ces derniers mois.
+
+Que de souvenirs nous garderons...
+
+Pierre MERCI et A DIEU !`
+                },
+                'patrick-guillot': {
+                    title: 'Patrick Guillot, ami de longue date',
+                    text: `Salut le père, c'est comme ça qu'immanquablement on se disait bonjour.
+Pas facile pour moi de sélectionner des moments mémorables tant il y en a.
+
+Mais au-delà de toutes les blagues dont j'ai pu être témoin et que je ne suis pas prêt d'oublier, j'aimerais surtout évoquer plus sérieusement ta sensibilité et ton amitié sans faille.
+
+Depuis plus de 55 ans on a pu partager nos passions communes à commencer par le groupe ARPE atelier de recherche pour environnement au festival d'art contemporain de Saumur.
+
+Saumur, la Loire, l'ardoise, le Tuffeau sans oublier les vins enfin notre culture commune quoi !
+
+J'aurais préférer porter ce témoignage en musique mais tu ne m'en as pas laissé le temps, ta dernière blague est arrivée trop tôt et elle n'est pas drôle du tout.
+
+Une toute dernière fois "salut le père"`
+                },
+                'jean-francois': {
+                    title: 'Jean-François Lévêque',
+                    text: `Pierre, si j'avais eu ton audace, ton originalité, ton humour, j'aurais invectivé ton cercueil comme tu savais si bien le faire pour d'autres partis trop tôt et j'aurais dit comme toi « Ça suffin, a la fie ! Tu nous fausses compagnie à l'heure de l'apéro, en pleine chaleur, alors que nous espérions te retrouver au frais sur la terrasse de la maison du haut d'Avis que tu as conçue avec Daniele et moi. »
+
+C'était dans les années 70. Les logiciels d'architectes ne t'intéressaient pas. Tes outils préférés, c'était le carnet et le crayon. Ce crayon nous naissait des formes pleines qui nous faisaient rêver. De tes mains était sortie une maquette géniale de la maison. Avant de la réaliser, tu avais même pris les mesures des places arrière de ta mini cooper pour être sûr qu'elle puisse y entrer. Il y avait du chemin entre Grenoble et Gênes. Avec une telle maquette, tu ne peux que construire ta maison.
+
+Ta maquette est toujours là et fait l'étonnement de ceux qui la regardent. Tu pars, notre maison reste, nous y sommes toujours très bien, grâce à toi. C'est midi passé et nous sortons une des bouteilles de champigny que tu aimais tant. Merci Pierre.`
+                },
+                'jean-pierre': {
+                    title: 'Jean-Pierre Rudigoz',
+                    text: `Pierre Encore merci à toi des belles surprises que tu m'a toujours faites pour mes anniversaires. Ce qui allait du colis envoyé en plein mois de juillet et posté de façon à ce qu'il traîne, contenant des pinces de crabes et des algues. Le colis avait été déposé sur mon bureau par le service du courrier et tout le monde se demandait ce qui pouvait sentir aussi mauvais.
+
+Comment oublier nos départs en vacances avec les enfants lorsque je chargeais la remorque et que tu passais ton temps, lorsque j'allais chercher autre chose à enlever ce que je venais de mettre dedans.
+
+Un accessit pour la belle surprise faite en collaboration avec notre fils Bertrand pour mes 80 ans où j'ai retrouvé plein de vieux amis.
+
+Mais je me souviendrai toujours de la fois où je t'ai piégé avec notre coiffeur commun Mario, qui t'avait installé dans un fauteuil avec une protection rose autour du cou pour ton shampoing. En plus avec la revue « Lui » dans tes mains ! Et moi par surprise te prendre en photo que je me suis empressé de diffuser à plein d'amis ! Tu avais drôlement été surpris et riait jaune.
+
+Aujourd'hui nos pleurs sont différents et sont pour toi.`
+                },
+                'herve': {
+                    title: 'Hervé Donnard, compagnon de la 681C',
+                    text: `Pierre dans la 681C
+
+En mai 1968 nous n'étions pas sur les barricades car nous sommes arrivés à Offenbourg (Allemagne), un train composé de bretons, normands et d'autres du reste de l'ouest de la France tous appelés à servir la nations mais la plupart pressés d'en terminer avec les obligations militaires.
+
+Pierre est arrivé à la caserne trois semaines plus tard avec ça bonne chevelure vite raccourcie.
+
+Nous ne le savions pas mais c'était un Pierre en or, car c'est de lui qu'est né le livre d'or de la 681C. Livre dans lequel chacun d'entre nous a eu droit à une anecdote nous concernant en rapport aux 16 mois passés ensemble et imaginée par Pierre. Je vous en cite quelques unes sur les plus de soixante existantes :
+
+- "La peinture fit de lui un artiste, l'armée en fit un margis, l'infirmerie lui fit don de la feignantise."
+- "Payé à ne rien faire si ce n'était qu'à râler, on ne lui trouva qu'une place de fourrier"
+- "Pourquoi lui avoir donné une deux chevaux, seulement les clés du foyer lui aurait suffit !"
+
+Et pour Pierre nous avions Ritouet, c'était mieux qu'un trésor, puisque de lui est né notre livre d'or.
+
+En 1979, 10 ans après avoir quitté l'armée, une autre histoire commence.
+À partir des adresses du livre d'or, Pierre aidé de quelques compères, ils vont labourer les campagnes, villages, villes pour retrouver la 681C.
+
+Stratégie payante car peu de temps après nous sommes un bon noyau à nous rassembler à Serent dans le Morbihan dans une atmosphère de joie et de convivialité. Ce n'était qu'un début, s'en est suivi un deuxième rassemblement en 1989 puis 5 ans après, tous 3 ans, tous les 2 ans et depuis 2008 tout les ans.
+
+Ce sont 25 rassemblements qui ont eu lieu.
+
+Pierre sans toi tous ces événements réjouissant n'auraient pu se faire.
+Tu en es l'auteur principal, c'est exceptionnel.
+De la part de tous je te dis merci.
+
+À titre personnel avec Gaby nous nous sommes d'abord rencontrés en Bretagne à l'époque où nos enfants : David, Guillaume et Christophe, Thierry étaient dans leurs petite enfance.
+
+Nous avons aussi été à Lyon magnifique ville qu'avec Catherine tu nous as fait découvrir. Ces dernières années vous êtes venus plusieurs fois en Bretagne où nous avons passé des moments forts agréables.
+
+Merci Pierre pour c'est beaux moment de vie passé ensemble.`
+                }
+            };
+
+            const testimony = testimonies[person];
+            if (testimony) {
+                // Créer un modal personnalisé pour les témoignages complets
+                const modal = document.createElement('div');
+                modal.className = 'modal';
+                modal.style.display = 'block';
+                modal.innerHTML = `
+                    <div style="position: relative; margin: auto; max-width: 800px; max-height: 90%; top: 5%; background: white; border-radius: 15px; padding: 3rem; box-shadow: 0 10px 40px rgba(0,0,0,0.3); overflow-y: auto;">
+                        <span class="close" onclick="this.parentElement.parentElement.remove()" style="position: absolute; top: 20px; right: 30px; font-size: 30px; cursor: pointer; color: #666;">&times;</span>
+                        <h2 style="color: #2c3e50; margin-bottom: 2rem; font-size: 2rem;">${testimony.title}</h2>
+                        <div style="white-space: pre-line; line-height: 1.8; color: #444; font-size: 1.1rem;">${testimony.text}</div>
+                    </div>
+                `;
+                document.body.appendChild(modal);
+                document.body.style.overflow = 'hidden';
+
+                // Fermer en cliquant à l'extérieur
+                modal.addEventListener('click', function(e) {
+                    if (e.target === modal) {
+                        modal.remove();
+                        document.body.style.overflow = 'auto';
+                    }
+                });
+            }
+        }
+
+        // Navigation automatique du slideshow
+        setInterval(function() {
+            slideIndex++;
+            if (slideIndex > document.querySelectorAll('.slide').length) {
+                slideIndex = 1;
+            }
+            showSlide(slideIndex);
+        }, 5000); // Change de slide toutes les 5 secondes
+
+        function changeSlide(direction) {
+            slideIndex += direction;
+            if (slideIndex > document.querySelectorAll('.slide').length) {
+                slideIndex = 1;
+            }
+            if (slideIndex < 1) {
+                slideIndex = document.querySelectorAll('.slide').length;
+            }
+            showSlide(slideIndex);
+        }
+
+        function currentSlide(index) {
+            slideIndex = index;
+            showSlide(slideIndex);
+        }
+
+        function showSlide(index) {
+            const slides = document.querySelectorAll('.slide');
+            const dots = document.querySelectorAll('.dot');
+            
+            if (index > slides.length) { slideIndex = 1; }
+            if (index < 1) { slideIndex = slides.length; }
+            
+            // Masquer toutes les slides
+            slides.forEach(slide => slide.classList.remove('active'));
+            dots.forEach(dot => dot.classList.remove('active'));
+            
+            // Afficher la slide courante
+            if (slides[slideIndex - 1]) {
+                slides[slideIndex - 1].classList.add('active');
+            }
+            if (dots[slideIndex - 1]) {
+                dots[slideIndex - 1].classList.add('active');
+            }
+        }
+
+        // Navigation fluide pour les ancres
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Effet d'apparition au scroll
+        function revealOnScroll() {
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => {
+                const sectionTop = section.getBoundingClientRect().top;
+                const triggerBottom = window.innerHeight / 5 * 4;
+                
+                if (sectionTop < triggerBottom) {
+                    section.style.opacity = '1';
+                    section.style.transform = 'translateY(0)';
+                }
+            });
+        }
+
+        // Initialiser les effets
+        window.addEventListener('scroll', revealOnScroll);
+        window.addEventListener('load', revealOnScroll);
+    </script>
 </body>
 </html>
