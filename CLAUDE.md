@@ -57,21 +57,22 @@ npm run clean        # Removes backup files
 ## File Structure
 
 ```
-├── index.html           # Main file (currently redirects to external site)
-├── test.html           # Full memorial site implementation
+├── index.html           # Main memorial site implementation
 ├── package.json        # NPM scripts and dependencies
 ├── images/            # Personal photos (54+ files)
-├── temoignages/       # Testimonial images (57 PNG files)
+├── temoignages/       # Testimonial images (70+ PNG/JPG files)
 ├── .htmlhintrc        # HTML validation configuration
+├── CLAUDE.md          # Development guidance
 └── robots.txt         # SEO directives
 ```
 
 ## Development Notes
 
 ### Current State
-- The project appears to be in transition - `index.html` redirects externally while `test.html` contains the full memorial site
+- Active memorial site in `index.html` with full implementation
 - No build process or bundling - direct HTML/CSS/JS development
-- All code is self-contained within `test.html` (1300+ lines)
+- All code is self-contained within `index.html` (1400+ lines)
+- Regular updates with new testimonials and content from family/friends
 
 ### Deployment Options
 - GitHub Pages (current setup)
@@ -79,9 +80,10 @@ npm run clean        # Removes backup files
 - Traditional web server (Apache/Nginx)
 
 ### Content Management
-- Photos are referenced directly by filename
-- Testimonials exist as both image files and embedded JavaScript text
+- Photos are referenced directly by filename (54 personal photos)
+- Testimonials exist as both image files (70+ PNG/JPG files) and embedded JavaScript text
 - All memorial content is hardcoded in the HTML
+- Testimonials include family members (Catherine, Amélie, Fanny, grandchildren) and friends/colleagues
 
 ### Technical Considerations
 - No external dependencies beyond development tools
@@ -93,16 +95,22 @@ npm run clean        # Removes backup files
 
 ### Interactive Elements
 - Photo slideshow with auto-advance
-- Modal image viewer with keyboard navigation
-- Expandable testimonial sections
+- Modal image viewer with keyboard navigation (70+ testimonial images)
+- Expandable testimonial sections with full-text JavaScript modals
 - Smooth scrolling navigation
 
 ### Content Sections
 1. **Hero Section**: Main photo, dates, and quote
 2. **Biography**: Life story told by children
-3. **Digital Guestbook**: Testimonial image previews
-4. **Testimonials**: Detailed messages from family/friends
-5. **Photo Gallery**: 54+ personal photos with captions
+3. **Digital Guestbook**: Testimonial image previews (9 featured + "View All" button)
+4. **Testimonials**: Detailed messages from family (Catherine, Amélie, Fanny, grandchildren) and friends/colleagues
+5. **Photo Gallery**: 54+ personal photos with captions and slideshow
 6. **Acknowledgments**: Thanks to caregivers and medical staff
+
+### Recent Updates
+- Added 70+ testimonial images with proper modal navigation
+- Integrated family testimonials with full JavaScript text support
+- Renamed files to avoid space-related issues
+- Updated biographical content with exact family-provided text
 
 This memorial site represents a personal family project with a focus on preserving memories and sharing the story of Pierre Ritouet's life and architectural career.
